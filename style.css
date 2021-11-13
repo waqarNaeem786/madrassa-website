@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font-family: 'Courier New';
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color:black;
+}
+
+.main-logo{
+    background-image: url(images/top_bg\ .png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 0px;
+    height: 70px;
+}
+.main-logo.overlay:before {
+    background-color: #d2973b;
+}
